@@ -56,7 +56,7 @@ Este artefacto ha sido construido enteramente utilizando **Kiro**, aprovechando 
 
 Este proyecto es de código abierto bajo la licencia **MIT**. Siéntete libre de bifurcar, modificar y realizar tus propios rituales.
 
-[Enlace al Repositorio Público](https://github.com/tu-usuario/code-necromanser)
+[Enlace al Repositorio Público](https://github.com/EdwinSotto123/LegacyBooh)
 
 ---
 *Forged with Kiro.*
