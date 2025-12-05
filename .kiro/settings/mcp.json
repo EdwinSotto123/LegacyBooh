@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "code-necromancer": {
+      "command": "node",
+      "args": ["./mcp-tools/server.js"],
+      "env": {
+        "GEMINI_API_KEY": "${env:API_KEY}"
+      },
+      "disabled": true,
+      "autoApprove": [
+        "analyze_code",
+        "detect_errors", 
+        "suggest_fix",
+        "exorcise_file",
+        "generate_testament"
+      ]
+    },
+    "ghostly-linter": {
+      "command": "node",
+      "args": ["./mcp-tools/linter.js"],
+      "env": {},
+      "disabled": true,
+      "autoApprove": [
+        "lint_file",
+        "lint_project",
+        "auto_fix_error",
+        "mass_auto_fix"
+      ]
+    },
+    "spirit-web": {
+      "command": "node", 
+      "args": ["./mcp-tools/mermaid.js"],
+      "env": {},
+      "disabled": true,
+      "autoApprove": [
+        "generate_flowchart",
+        "analyze_dependencies"
+      ]
+    }
+  }
+}
